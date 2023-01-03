@@ -1,0 +1,16 @@
+body {
+    background: lightblue;
+    color: navy;
+}
+
+h2 {
+    text-align: center; 
+    font-size: 30px;
+    color: coral
+}
+
+
+.cupcakePara {
+    background-color: navy;
+    color: lightblue;
+}

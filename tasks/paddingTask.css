@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+nav {
+    border-bottom-width: 2px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: gainsboro;
+}
+
+#divPad1 {
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+#divPad2 {
+    padding: 10px 5px 15px 5px;
+}
+
+#divPad1, #divPad2 {
+    padding: 15px;
+}
+
+/* This last one with divPad1 and divPad2 will overwrite the previous divPad1 and divPad2 stylings due to the way the computer reads the document, from top down, always defaulting to the last declaration. */

@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+} 
+
+nav {
+    border-bottom-width: 2px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* in the nav above, we have border: 1px solid red AND we also have the style, width. nav as it is right now will show a dashed green border all the way around the nav, but why didn't the red solid line show up?  */

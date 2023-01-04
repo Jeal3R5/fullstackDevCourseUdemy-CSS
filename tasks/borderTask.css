@@ -1,0 +1,16 @@
+/* making the margin and padding 0 on the body will ensure we have no white space between the elements and the top of the page */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+nav {
+    border-width: 5px;
+    border-style: dotted;
+    border-color: greenyellow;
+    border-bottom-style: solid;
+    border-bottom-color: maroon;
+    padding: 5px;
+    background-color: lightgrey;
+}

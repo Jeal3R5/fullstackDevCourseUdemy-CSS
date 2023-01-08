@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: linen;
+}
+
+nav{
+    border-bottom-width: 2px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+label, input, textarea, button {
+    display: block;
+}
+
+
+form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid mediumaquamarine;
+}
+
+label {
+    margin-bottom: 4px;
+    margin-top: 15px;
+
+}
+
+
+input {
+    margin-bottom: 4px;
+    width: 100%;
+    border: 1px solid mediumaquamarine;
+    padding: 5px;
+}
+
+textarea {
+    margin-bottom: 4px;
+    width: 100%;
+    border: 1px solid mediumaquamarine;
+    padding: 5px;
+}
+
+button {
+    background-color: aqua;
+    padding: 10px;
+    margin: 0 auto;
+}

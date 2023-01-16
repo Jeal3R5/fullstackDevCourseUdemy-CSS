@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Grouping Selectors</title>
+    <style>
+        .certain-class1 {
+            color: green;
+        }
+
+        .certain-class2 {
+            color: purple;
+        }
+
+        .certain-class3 {
+            color: orange;
+        }
+
+        .certain-class1, .certain-class2, .certain-class3 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+    <h1 class="certain-class1">Here is a title</h1>
+    <span class="certain-class2">Here is a span.</span>
+    <p class="certain-class3">Here is a para.</p>
+    </div>
+</body>
+</html>
+
+<!-- In this task, we are trying to recreate what he did in the code along. Create three elements, give each one a different class of certain-class1/2/3, create separate styles for each then group them together for some styling. I chose to give each element a different color, then group them together for the same font -->

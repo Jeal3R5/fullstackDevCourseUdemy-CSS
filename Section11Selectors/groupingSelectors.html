@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Selectors</title>
+    <style>
+        nav {
+            border-bottom-width: 2px;
+            border-bottom-color: #ccc;
+            border-bottom-style: solid;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: #fff;
+        }
+        #body {
+            padding: 0 10px 20px;
+        }
+
+        #page-title {
+            margin: 0 0 25px 0;
+            padding: 0;
+            border-bottom: 1px solid #aaa;
+            font-weight: 300;
+        }
+
+        /* This css will target all divs, all spans, and all paragraphs, it is a very broad selection.*/ 
+        /*div, span, p {
+            color: red;
+        }
+*/
+        /* if we want to select only certain elements, we can give them the same class name, this targets all elements with this class name, for this example it's the div and p being targeted  */
+       /* .certain-class {
+            color: red;
+        }
+        */
+
+        /* if we want to select a specific class and element, it looks like this*/ /*This css does NOT turn the title red because it doesn't target the title nor the nav*/
+        .certain-class, span {
+            color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav>CSS Course by @KalobTaulien
+        <i class="fa fa-twitter"></i>
+    </nav>
+    <div id="body">
+        <h1 id="page-title">Grouping Selectors</h1>
+
+        <div class="certain-class">First element</div>
+        <span>Second element</span>
+        <p class="certain-class">Third element</p>
+
+    </div>
+</body>
+</html>
